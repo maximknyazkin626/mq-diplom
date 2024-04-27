@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
-   font-family: OpenSans;
+  font-family: OpenSans;
 }
 
 @font-face {
@@ -78,7 +78,7 @@
 
 .navbar-menu-list-item:hover {
   color: #959595;
-} 
+}
 
 .logo {
   width: 200px;
@@ -93,7 +93,7 @@
   margin: 0 auto;
   padding: 0px 15px 0px 15px;
   justify-content: center;
-} 
+}
 
 .header-title {
   width: 750px;
@@ -102,7 +102,6 @@
   text-align: center;
   font-size: 45px;
 }
-
 
 .main_content {
   min-width: 778px;
@@ -139,7 +138,6 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  
 }
 
 .main-category {
@@ -188,8 +186,6 @@
   text-transform: none;
   font-size: 15px;
 }
-
-
 
 .aside {
   min-width: 287px;
@@ -255,8 +251,7 @@
   background: #f4f7f6;
   padding-left: 18px;
   border: none;
-  
-  
+
   position: relative;
 }
 
@@ -265,13 +260,12 @@
   height: 48px;
   border: none;
   background: #b59f5b;
-  
-  background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/search.svg');
+
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
 }
-
 
 .search-field:after {
   content: "";
@@ -291,7 +285,6 @@
   flex-direction: column;
 }
 
-
 .mailing-field {
   width: 287px;
   height: 48px;
@@ -308,8 +301,8 @@
   margin-top: 23px;
   border: none;
   background: #b59f5b;
-  
-  background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/search.svg');
+
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
@@ -459,25 +452,25 @@
 }
 
 .trends {
-  display:block;
+  display: block;
   box-sizing: border-box;
 }
 
 .trends-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    margin-top: 64px;
-    margin-bottom: 29px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-top: 64px;
+  margin-bottom: 29px;
 }
 
 .trends-title:after {
-    content: "";
-    display: block;
-    width: 66px;
-    margin: 9px auto 0 auto;
-    border-bottom: 3px solid #b59f5b;
+  content: "";
+  display: block;
+  width: 66px;
+  margin: 9px auto 0 auto;
+  border-bottom: 3px solid #b59f5b;
 }
 
 .trends-grid {
@@ -493,7 +486,7 @@
   position: relative;
 }
 
-.trends-card:nth-child(1n+2) {
+.trends-card:nth-child(1n + 2) {
   margin-left: 4px;
 }
 
@@ -507,15 +500,15 @@
 }
 
 .first:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .production {
@@ -530,19 +523,19 @@
 }
 
 .production-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    margin-bottom: 29px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-bottom: 29px;
 }
 
 .production-title:after {
-    content: "";
-    display: block;
-    width: 66px;
-    margin: 9px auto 0 auto;
-    border-bottom: 3px solid #b59f5b;
+  content: "";
+  display: block;
+  width: 66px;
+  margin: 9px auto 0 auto;
+  border-bottom: 3px solid #b59f5b;
 }
 
 .production-cards {
@@ -564,7 +557,7 @@
   border: 3px solid #b59f5b;
 }
 
-.production-card:nth-child(1n+2) {
+.production-card:nth-child(1n + 2) {
   margin-left: 65px;
 }
 
@@ -583,15 +576,15 @@
 }
 
 .trends-subtitle {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin-bottom: 38px;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 34px;
-    margin-right: 34px;
-    font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 38px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 34px;
+  margin-right: 34px;
+  font-weight: bold;
 }
 
 .production-img {
