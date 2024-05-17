@@ -596,7 +596,7 @@
 
 .production-link:hover {
   text-decoration: underline;
-  color: blue;
+  color: #b59f5b;
 }
 
 .production-card:nth-child(1n + 2) {
@@ -656,14 +656,44 @@
 }
 
 .product-button {
-  display: inline-block;
-  padding: 20px;
-  min-width: 140px;
-  color: #ffffff;
+  padding: 19px 29px;
   background: #b59f5b;
-  font-size: 15;
-  font-weight: bold;
-  cursor: pointer;
-  text-align: center;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.product-cost {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  background: inherit;
+  justify-content: center;
+}
+
+.sale-cost {
+  width: 100%;
+  background: inherit;
+
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: 700;
+}
+
+.current-cost {
+  width: 100%;
+  background: inherit;
+
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: 700;
 }
