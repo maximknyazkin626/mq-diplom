@@ -424,24 +424,13 @@
 .copyright {
   width: 100%;
   height: 128px;
-}
-
-.copyright-area {
-  width: 366px;
-  height: 100%;
-  margin: 0 auto;
   display: flex;
+  margin: auto auto;
   box-sizing: border-box;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.copyright-text {
   font-size: 12px;
   color: #999999;
-  margin-top: 74px;
-  margin-bottom: 41px;
 }
 
 .wrap-footer {
@@ -454,14 +443,15 @@
 .trends {
   display: block;
   box-sizing: border-box;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .trends-title {
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  margin-top: 64px;
   margin-bottom: 29px;
 }
 
@@ -478,15 +468,14 @@
 }
 
 .trends-card {
-  width: calc(25% - 4px);
+  width: 25%;
   height: 320px;
   background-color: black;
-  margin-bottom: 64px;
   box-sizing: content-box;
   position: relative;
 }
 
-.trends-card:nth-child(1n + 2) {
+.trends-card:nth-child(n + 2) {
   margin-left: 4px;
 }
 
@@ -553,7 +542,7 @@
 }
 
 .production-title {
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -574,7 +563,7 @@
 
 .production-card {
   width: 348px;
-  height: 440px;
+  min-height: 440px;
   background: inherit;
   position: relative;
 }
@@ -613,8 +602,11 @@
 }
 
 .trends-cat {
-  margin-top: 40px;
   margin-left: 34px;
+}
+
+.trends-descr {
+  margin-top: 40px;
 }
 
 .trends-subtitle {
@@ -630,14 +622,32 @@
 }
 
 .production-img {
-  width: 300px;
+  max-width: 300px;
   max-height: 205px;
   display: flex;
   margin: 0 auto;
 }
 
+.product-card-img {
+  width: 347px;
+  height: 205px;
+  box-sizing: border-box;
+  background-color: inherit;
+  position: relative;
+}
+
+.product-card-body {
+  width: 347px;
+  min-height: 266px;
+  box-sizing: border-box;
+  background-color: inherit;
+  position: absolute;
+  top: 172px;
+  border: 3px solid #b59f5b;
+}
+
 .product-title {
-  margin-top: 25px;
+  margin-top: 54px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 0;
@@ -647,6 +657,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 2%;
+  overflow: hidden;
 }
 
 .product-buy {
