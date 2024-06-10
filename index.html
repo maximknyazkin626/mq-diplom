@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adaptive Diplom</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 641px) and (max-width: 1200px)"
+      href="css/tablet.css"
+    />
+    <link rel="stylesheet" media="(max-width: 640px)" href="css/mobile.css" />
   </head>
   <body>
     <header class="header">
       <div class="navbar">
-        <a href="#"
-          ><img
-            class="logo"
-            src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
-            alt="logo"
-        /></a>
+        <a href="#"><img class="logo" src="svg/noemi-logo.svg" alt="logo" /></a>
         <nav class="navbar-menu">
           <ul class="navbar-menu-list">
             <li><a class="navbar-menu-list-item" href="#">Главная</a></li>
@@ -25,6 +26,9 @@
             <li><a class="navbar-menu-list-item" href="#">Контакты</a></li>
           </ul>
         </nav>
+        <a href="#" class="burger">
+          <img class="burger-menu" src="svg/burger-menu.svg" alt="logo"
+        /></a>
       </div>
       <h1 class="wrap header-title">
         Блог о творчестве, спорте, и образе жизни

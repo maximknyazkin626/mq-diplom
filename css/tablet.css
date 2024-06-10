@@ -1,0 +1,18 @@
+html {
+  font-size: 55.625%;
+}
+.header-title {
+  color: green;
+}
+
+.trends-card {
+  width: 50%;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.burger {
+  display: inline-block;
+}

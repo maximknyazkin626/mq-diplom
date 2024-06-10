@@ -6,6 +6,10 @@
   font-family: OpenSans;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: "OpenSans";
   src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
@@ -59,7 +63,7 @@
 
 .navbar-menu {
   display: inline-block;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: normal;
 }
 
@@ -82,7 +86,15 @@
 
 .logo {
   width: 200px;
-  height: auto;
+  display: inline-block;
+}
+
+.burger {
+  display: none;
+}
+
+.burger-menu {
+  width: 23px;
   display: inline-block;
 }
 
@@ -100,7 +112,7 @@
   padding-top: 155px;
   padding-bottom: 165px;
   text-align: center;
-  font-size: 45px;
+  font-size: 4.5rem;
 }
 
 .main_content {
@@ -132,7 +144,7 @@
 .card-text-categories {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #b59f5b;
   margin-bottom: 14px;
   display: flex;
@@ -150,7 +162,7 @@
 .card-text-title {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 2rem;
   margin-bottom: 38px;
   color: #000000;
   text-decoration: none;
@@ -172,19 +184,19 @@
   display: inline-block;
   text-transform: none;
   color: #888888;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 15px;
 }
 
 .author {
   display: inline-block;
   text-transform: none;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .card-text-descriprion {
   text-transform: none;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .aside {
@@ -198,7 +210,7 @@
 }
 
 .aside-title {
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -230,7 +242,7 @@
 
 .new-posts-description {
   text-transform: uppercase;
-  font-size: 13.99px;
+  font-size: 1.4rem;
   color: #000000;
   text-decoration: none;
 }
@@ -313,7 +325,7 @@
   height: 48px;
   background: #b59f5b;
   border: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -348,7 +360,7 @@
   margin-right: 5px;
   margin-top: 6px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   border: 3px solid #ededed;
@@ -375,7 +387,7 @@
 }
 
 .topic-number {
-  font-size: 11.8px;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #b59f5b;
   padding-top: 10px;
@@ -389,7 +401,7 @@
 }
 
 .topic-text {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #000000;
   text-decoration: none;
@@ -429,7 +441,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #999999;
 }
 
@@ -448,7 +460,7 @@
 }
 
 .trends-title {
-  font-size: 20px;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -471,7 +483,7 @@
   width: 25%;
   height: 320px;
   background-color: black;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   position: relative;
 }
 
@@ -509,6 +521,7 @@
 .fourth {
   background-image: url("../images/trend4.jpg");
   background-repeat: no-repeat;
+  /* width: 100%; */
   top: 0;
   left: 0;
   background-size: cover;
@@ -542,7 +555,7 @@
 }
 
 .production-title {
-  font-size: 20px;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -577,7 +590,7 @@
 }
 
 .production-link {
-  font-size: 15px;
+  font-size: 1.5rem;
   text-transform: none;
   color: #b59f5b;
   text-decoration: none;
@@ -612,7 +625,7 @@
 .trends-subtitle {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 2rem;
   margin-bottom: 38px;
   color: #ffffff;
   text-decoration: none;
@@ -670,7 +683,7 @@
   padding: 19px 29px;
   background: #b59f5b;
   border: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -690,7 +703,7 @@
   width: 100%;
   background: inherit;
 
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 24px;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -702,7 +715,7 @@
   width: 100%;
   background: inherit;
 
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 24px;
   text-transform: uppercase;
   color: #0f0d0e;
