@@ -1,12 +1,13 @@
 html {
   font-size: 55.625%;
 }
-.header-title {
-  color: green;
-}
 
-.trends-card {
+/* .trends-card {
   width: 50%;
+} */
+
+.header {
+  background-image: url("../images/banner-bg-tablet.jpg");
 }
 
 .navbar-menu {
@@ -15,4 +16,57 @@ html {
 
 .burger {
   display: inline-block;
+}
+
+.trends-card {
+  width: calc(50% - 4px);
+}
+
+.trends-card:nth-child(n + 2) {
+  margin-left: 0px;
+}
+
+.trends-card:nth-child(1) {
+  margin-bottom: 4px;
+  margin-right: 4px;
+}
+.trends-card:nth-child(2) {
+  margin-bottom: 4px;
+}
+.trends-card:nth-child(3) {
+  margin-right: 4px;
+}
+
+.main_content_card {
+  flex-direction: column;
+  padding-bottom: 21px;
+  border-bottom: 3px solid #eeeeee;
+}
+
+.main_content {
+}
+
+.production-card:nth-child(3) {
+  margin-top: 30px;
+}
+
+.production-card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.production-card:nth-child(1n + 2) {
+  margin-left: auto;
+}
+
+.card-text {
+  margin-left: 0;
+}
+
+.card-text-info {
+  margin-bottom: 38px;
+}
+
+.search-field {
+  /* width: 222px; */
 }
