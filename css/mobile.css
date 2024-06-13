@@ -3,5 +3,104 @@ html {
 }
 
 .header-title {
-  color: red;
+  font-size: 26px;
+}
+
+.header {
+  background-image: url("../images/banner-mobile.jpg");
+  width: 100%;
+}
+
+.header-title {
+  width: 100%;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.burger {
+  display: inline-block;
+}
+
+.trends-card {
+  width: 100%;
+}
+
+.trends-card:nth-child(n + 2) {
+  margin-left: 0;
+}
+
+.trends-card {
+  margin-bottom: 4px;
+}
+
+.wrap {
+  flex-direction: column;
+  width: 100%;
+}
+
+.aside {
+  width: 100%;
+}
+
+.main_content {
+  width: 100%;
+}
+
+.main_content_card {
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 21px;
+  border-bottom: 3px solid #eeeeee;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card_image {
+  width: 100%;
+}
+
+.card-text {
+  margin-left: 0;
+}
+
+.card-text-title {
+  margin-bottom: 18px;
+}
+
+.card-text-info {
+  margin-bottom: 18px;
+}
+
+.production {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.production-card {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.product-card-body {
+  width: 100%;
+}
+
+.production-card:nth-child(1n + 2) {
+  margin-left: 0;
+}
+
+.card-text-descriprion {
+  font-size: 1.6rem;
+}
+
+.author {
+  font-size: 1.4rem;
+}
+
+.date {
+  font-size: 1.4rem;
 }
