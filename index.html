@@ -339,8 +339,40 @@
                   placeholder="Ваш e-mail адрес"
                 />
               </label>
+              <!-- ///////////////////////POPUP-MENU//////////////// -->
               <div class="mailing-button">
                 <button class="button" type="submit">Подписаться</button>
+              </div>
+              <label for="popup1">
+                Всплывающее меню
+              </label>
+              <input type="checkbox" id="popup1" class="popup__toggle" />
+              <div class="popup">
+                <label for="popup1" class="popup__close-background"></label>
+                <div class="popup__content">
+                  <label for="popup1" class="popup__close">&times;</label>
+                  <h2 class="popup-title">Ваш фидбек</h2>
+                  <label>
+                    <div>Как часто вы заходите на сайт?</div>
+                    <select>
+                      <option>Почти каждый день</option>
+                      <option>Иногда</option>
+                      <option>Редко</option>
+                    </select>
+                  </label>
+                  <label>
+                    <div>Вы подписаны на e-mail рассылку?</div>
+                    <input type="radio"> <Span>Да</Span>
+                    <input type="radio"> <Span>Нет</Span>
+                  </label>
+                  <label>
+                    <div>Расскажите какой контент вы бы хотели видеть на нашем сайте?</div>
+                    <textarea placeholder="Может, больше рецептов?"></textarea>
+                  </label>
+                  <div class="mailing-button">
+                    <button class="button" type="submit">Отправить</button>
+                  </div>
+                </div>
               </div>
             </form>
             <section class="tags">
